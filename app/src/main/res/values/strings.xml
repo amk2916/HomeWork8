@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">homeWork8</string>
+    <string name="app">homeWork8</string>
+    <string name="register">REGISTER</string>
+    <string name="sign_in">Sign in</string>
+    <string name="e_mail">e-mail</string>
+    <string name="password">password</string>
+    <string name="tax">Tax</string>
+    <string name="shipping">Shipping</string>
+    <string name="your_order_total">Your order total</string>
+    <string name="subtotal">Subtotal</string>
+
+    <string-array name="dds">
+        <item>привет</item>
+    </string-array>
+
 </resources>

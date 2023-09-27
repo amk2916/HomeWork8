@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button_registration_view">#4FB8FF</color>
+    <color name="color_reset">#888888</color>
+    <color name="textHeaderRegistration">#FFFFFFFF</color>
+    <color name="backgroundColor">#121212</color>
+    <color name="buttonColor">#4FB8FF</color>
+    <color name="colorToolBar">#2e2e2e</color>
+    <color name="statusBarColor">#121212</color>
+    <color name="iconToolBar">#979797</color>
+    
+    <!--цвета для chartLayout-->
+    <color name="chartButton">#89ED5B</color>
+    <color name="chartButtonText">#121212</color>
+    <color name="chartButtonIcon">#121212</color>
+    <color name="textResult">#FFD76F</color>
+    <color name="textCountItem">#89ED5B</color>
+    <color name="colorChartToolBar">#121212</color>
+    <color name="listItemIconColor">#979797</color>
+    <color name="listItemTextColor">#FFFFFFFF</color>
+
+
+
+</resources>

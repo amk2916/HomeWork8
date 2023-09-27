@@ -1,9 +1,64 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.HomeWork8" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+<!--    <style name="Base.Theme.HomeWork8" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>-->
+    <style name="Base.Theme.HomeWork8" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/statusBarColor</item>
+        <item name="android:windowLightStatusBar">true</item>
+
     </style>
 
-    <style name="Theme.HomeWork8" parent="Base.Theme.HomeWork8" />
+
+    <!--тема для registration layout-->
+    <style name="Theme.HomeWork8" parent="Base.Theme.HomeWork8" >
+        <item name="colorAccent">@color/button_registration_view</item>
+        <item name="colorReset">@color/color_reset</item>
+        <item name="android:buttonStyle">@style/RegistrationButtonStyle</item>
+        <item name="android:textColor">@color/textHeaderRegistration</item>
+        <item name="colorPrimary">@color/backgroundColor</item>
+
+    </style>
+
+
+    <style name="RegistrationButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:background">@color/button_registration_view</item>
+    </style>
+
+    <attr name="colorReset" format="reference"/>
+    <!--тема для registration layout-->
+
+
+
+<!--    тема для contact layout-->
+    <style name="Theme.ContactLayout" parent="Base.Theme.HomeWork8" >
+        <item name="android:buttonStyle">@style/buttonContact</item>
+    </style>
+
+
+    <style name="buttonContact" parent="Widget.AppCompat.Button">
+        <item name="backgroundTint">@color/buttonColor</item>
+    </style>
+
+
+    <!--тема для chartlayout-->
+    <style name="Theme.ChartLayout" parent="Base.Theme.HomeWork8" >
+        <item name="buttonStyle">@style/chartButton</item>
+        <item name="textCountItem">@color/textCountItem</item>
+        <item name="colorChartToolBar">@color/colorChartToolBar</item>
+    </style>
+
+    <style name="chartButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/chartButton</item>
+        <item name="android:textColor">@color/chartButtonText</item>
+    </style>
+
+    <attr name="textCountItem" format="reference"/>
+    <attr name="colorChartToolBar" format="reference"/>
+    <!--тема для chartlayout-->
+
+
+
 </resources>

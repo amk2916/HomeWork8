@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="65dp"
+        android:layout_height="63dp"
+
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="20dp"
+
+
+        android:src="@drawable/example_fig"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forever Friends"
+        android:textSize="24sp"
+        android:textColor="@color/listItemTextColor"
+
+        app:layout_constraintTop_toTopOf="@id/image"
+        app:layout_constraintStart_toEndOf="@id/image"
+
+        android:layout_marginLeft="16dp" />
+
+    <TextView
+        android:id="@+id/caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Caption"
+        android:textSize="16sp"
+        android:textColor="@color/listItemTextColor"
+
+        app:layout_constraintTop_toBottomOf="@id/TitleText"
+        app:layout_constraintStart_toEndOf="@id/image"
+
+
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="16dp"/>
+
+    <TextView
+        android:id="@+id/CostText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$US,1.50"
+        android:textSize="24sp"
+        android:textColor="@color/listItemTextColor"
+        app:layout_constraintTop_toTopOf="@id/image"
+        app:layout_constraintRight_toRightOf="parent"
+
+        android:layout_marginRight="16dp"/>
+
+    <ImageView
+        android:id="@+id/close"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/listItemTextColor"
+        android:src="@drawable/baseline_close_24"
+
+        app:layout_constraintBottom_toBottomOf="@+id/caption"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/caption" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

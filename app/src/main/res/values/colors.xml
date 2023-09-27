@@ -2,4 +2,29 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="button_registration_view">#2980b9</color>
+    <color name="top_bar_contact_layout">#2980b9</color>
+    <color name="statusBarColor">#2980b9</color>
+    <color name="iconEditText">#979797</color>
+    <color name="buttonColor">#2ECC71</color>
+    <color name="buttonColorListItem">#263238</color>
+    <color name="color_reset">#2980b9</color>
+    <color name="textHeaderRegistration">#FF000000</color>
+    <color name="backgroundColor">#FFFFFFFF</color>
+    <color name="backgroundTextLayout">#F0F0F0</color>
+    <color name="colorToolBar">#2980b9</color>
+    <color name="iconToolBar">#FFFFFFFF</color>
+
+    <!--цвета для chartLayout-->
+    <color name="chartButton">#121212</color>
+    <color name="chartButtonText">#FFFFFFFF</color>
+    <color name="chartButtonIcon">#979797</color>
+    <color name="textResult">#121212</color>
+    <color name="textCountItem">#121212</color>
+    <color name="colorChartToolBar">#2980b9</color>
+    <color name="listItemIconColor">@android:color/holo_red_dark</color>
+    <color name="listItemTextColor">#FF000000</color>
+
+
+
 </resources>
