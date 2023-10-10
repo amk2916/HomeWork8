@@ -19,6 +19,8 @@
             android:exported="true"
             android:theme="@style/Theme.ChartLayout">
 
+
+
         </activity>
 
         <activity
