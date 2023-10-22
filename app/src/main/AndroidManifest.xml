@@ -15,12 +15,13 @@
 
 
         <activity
-            android:name=".ChartLayout"
+            android:name=".chart.ChartLayout"
             android:exported="true"
             android:theme="@style/Theme.ChartLayout">
-
-
-
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
 
         <activity
@@ -33,10 +34,7 @@
             android:name=".RegistrationLayout"
             android:exported="true"
             android:theme="@style/Theme.HomeWork8">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
         </activity>
 
     </application>
